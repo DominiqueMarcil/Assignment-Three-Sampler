@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+  }
+
+  .person {
+    fill: #fd0000;
+    stroke-width: 0px;
+  }
+
+  /* limbo layer */
+  .lmb-1 {
+    stroke-width: 4px;
+}
+
+.lmb-1, .lmb-2 {
+    fill: none;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+}
+
+.lmb-2 {
+    stroke-width: 3px;
+}
+
+.lmb-3 {
+    fill: #fff;
+    stroke-width: 0px;
+}
+
+/* lust layer */
+.lust-1 {
+  fill: none;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  stroke-width: 4px;
+}
+
+.lust-2 {
+  fill: #fff;
+  stroke-width: 0px;
+}
+
+/* glutton layer */
+.gltn-1 {
+  stroke-width: 4px;
+}
+
+.gltn-1, .gltn-2 {
+  fill: none;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+}
+
+.gltn-3 {
+  fill: #fff;
+  stroke-width: 0px;
+}
+
+/* greed layer */
+.greed-1 {
+  fill: none;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  stroke-width: 4px;
+}
+
+.greed-2 {
+  fill: #fff;
+  stroke-width: 0px;
+}
+
+/* wrath layer */
+.wrth-1 {
+  fill: none;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  stroke-width: 4px;
+}
+
+.wrth-2 {
+  fill: #fff;
+  stroke-width: 0px;
+}
+
+/* heresy layer */
+.hrtc-1 {
+  fill: none;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  stroke-width: 4px;
+}
+
+.hrtc-2 {
+  fill: #fff;
+  stroke-width: 0px;
+}
+
+/* violence layer */
+.vlnt-1 {
+  fill: none;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  stroke-width: 4px;
+}
+
+.vlnt-2 {
+  fill: #fff;
+  stroke-width: 0px;
+}
+
+/* fraud layer */
+.frdlnt-1 {
+  fill: none;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  stroke-width: 4px;
+}
+
+.frdlnt-2 {
+  fill: #fff;
+  stroke-width: 0px;
+}
+
+/* treachery layer */
+.trchry-1 {
+  fill: none;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  stroke-width: 4px;
+}
+
+.trchry-2 {
+  fill: #fff;
+  stroke-width: 0px;
+}
