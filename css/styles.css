@@ -6,7 +6,6 @@ body {
   }
 
   .descent {
-    fill: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -15,8 +14,10 @@ body {
   .person {
     fill: #fd0000;
     stroke-width: 0px;
-    z-index: 10;
+    transform: translateX(50%);
+    z-index: 100;
   }
+
 
   /* limbo layer */
   limboLayer {
