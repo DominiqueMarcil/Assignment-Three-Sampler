@@ -2,16 +2,30 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #000000;
+    fill: none;
+  }
+
+  .descent {
+    fill: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
 
   .person {
     fill: #fd0000;
     stroke-width: 0px;
+    z-index: 10;
   }
 
   /* limbo layer */
+  limboLayer {
+    z-index: 0;
+    fill: none;
+  }
   .lmb-1 {
     stroke-width: 4px;
+    fill: none;
 }
 
 .lmb-1, .lmb-2 {
@@ -22,6 +36,7 @@ body {
 
 .lmb-2 {
     stroke-width: 3px;
+    fill: none;
 }
 
 .lmb-3 {
@@ -30,6 +45,9 @@ body {
 }
 
 /* lust layer */
+.lustLayer {
+  z-index: -1;
+}
 .lust-1 {
   fill: none;
   stroke: #fff;
@@ -43,6 +61,10 @@ body {
 }
 
 /* glutton layer */
+.gluttonLayer {
+  z-index: -2;
+}
+
 .gltn-1 {
   stroke-width: 4px;
 }
@@ -59,6 +81,10 @@ body {
 }
 
 /* greed layer */
+.greedLayer {
+  z-index: -3;
+}
+
 .greed-1 {
   fill: none;
   stroke: #fff;
@@ -72,6 +98,10 @@ body {
 }
 
 /* wrath layer */
+.wrathLayer {
+  z-index: -4;
+}
+
 .wrth-1 {
   fill: none;
   stroke: #fff;
@@ -84,7 +114,11 @@ body {
   stroke-width: 0px;
 }
 
-/* heresy layer */
+/* heretic layer */
+.hereticLayer {
+  z-index: -5;
+}
+
 .hrtc-1 {
   fill: none;
   stroke: #fff;
@@ -98,6 +132,11 @@ body {
 }
 
 /* violence layer */
+.violentLayer {
+  z-index: -6;
+  transform: translateX(50%) translateY(50%);
+}
+
 .vlnt-1 {
   fill: none;
   stroke: #fff;
@@ -111,6 +150,10 @@ body {
 }
 
 /* fraud layer */
+.fraudulentLayer {
+  z-index: -7;
+}
+
 .frdlnt-1 {
   fill: none;
   stroke: #fff;
@@ -124,6 +167,11 @@ body {
 }
 
 /* treachery layer */
+.treacheryLayer {
+  z-index: -8;
+  transform: translateX(50%) translateY(50%);
+}
+
 .trchry-1 {
   fill: none;
   stroke: #fff;
